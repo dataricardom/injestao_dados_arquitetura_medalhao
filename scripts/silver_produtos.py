@@ -70,3 +70,5 @@ resultado = conn.execute("SELECT * FROM silver_produtos;").fetchdf()
 
 resultado.head(6)
 # %%
+conn.close()
+# %%
